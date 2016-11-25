@@ -182,10 +182,15 @@ body {
 .about-container {
     width: 80%;
     margin: 0 auto;
-    padding-top: 20em;
+    padding-top: 10em;
 }
 
 .founders {
     height: 100vh;
-    background-color: green;
+    background-color: #A9A9A9;
+    text-align: left;
+}
+
+.founders h3 {
+    padding-top: 0;
 }
