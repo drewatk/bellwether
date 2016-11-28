@@ -178,6 +178,8 @@ body {
 
 .about {
     height: 110vh;
+    background: url('aboutbg.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 
