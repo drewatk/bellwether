@@ -196,3 +196,9 @@ body {
 .founders h3 {
     padding-top: 0;
 }
+
+.founders .media-object {
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
