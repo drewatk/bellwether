@@ -213,3 +213,8 @@ body {
   height: 100px;
   display: flex;
 }
+
+.slides {
+    height: 100vh;
+    text-align: left;
+}
