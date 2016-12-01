@@ -241,6 +241,12 @@ body {
     z-index: 5;
 }
 
+@media (max-width: 50em) {
+    .founders-container {
+        width: 95%;
+    }
+}
+
 .slides {
     height: 100vh;
     text-align: left;
