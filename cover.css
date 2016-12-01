@@ -34,7 +34,7 @@ body {
     color: #fff;
     text-align: center;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Muli', sans-serif;
     background-color: #EFEFEF
 }
 
@@ -196,7 +196,7 @@ body {
 .about-container {
     width: 80%;
     margin: 0 auto;
-    padding-top: 10em;
+    padding-top: 15em;
 }
 
 .founders {
@@ -212,6 +212,12 @@ body {
   width: 100px;
   height: 100px;
   display: flex;
+}
+
+.founders-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 17em;
 }
 
 .slides {
