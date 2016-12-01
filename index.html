@@ -61,14 +61,14 @@
 
 
       <div class="cover-container">
-          <h3 class="inner cover">About</h3>
-          <p>
+        <h3 class="inner cover">About</h3>
+        <p>
 
 
-            Bellwether Design Solutions contracts with Construction and Architecture firms, allowing them to transform their existing designs into virtual reality experiences to show to their clients. Our service takes their designs, in standard CAD software format, and construct
-            a demo program that helps their clients envision their designs to make changes before construction starts.
+          Bellwether Design Solutions contracts with Construction and Architecture firms, allowing them to transform their existing designs into virtual reality experiences to show to their clients. Our service takes their designs, in standard CAD software format,
+          and construct a demo program that helps their clients envision their designs to make changes before construction starts.
 
-          </p>
+        </p>
 
       </div>
     </div>
@@ -93,7 +93,7 @@
           </a>
         </div>
         <div class="media-body">
-          <h4 class="media-heading">Alec Hassfurther</h4> Alec Hassfurther is a Construction Management student from Ferdinand, Indiana. His experience with AutoCad and Revit will help the NewView Solutions team attain their goal of simplifying the relationship between the design and finished product
+          <h4 class="media-heading">Alec Hassfurther</h4> Alec Hassfurther is a Construction Management student from Ferdinand, Indiana. His experience with AutoCad and Revit will help the Bellwether team attain their goal of simplifying the relationship between the design and finished product
           phases of construction.
         </div>
       </div>
@@ -115,7 +115,7 @@
           </a>
         </div>
         <div class="media-body">
-          <h4 class="media-heading">Megan Jarriel</h4> Megan Jarriel is an Electrical Engineering student from Austin, Texas. She has previous experience as a software intern at 21CT, and has worked in a physics lab at the University of Texas. Megan is excited to work with the New-View team to
+          <h4 class="media-heading">Megan Jarriel</h4> Megan Jarriel is an Electrical Engineering student from Austin, Texas. She has previous experience as a software intern at 21CT, and has worked in a physics lab at the University of Texas. Megan is excited to work with the Bellwether team to
           start revolutionizing the construction industry.
         </div>
       </div>
@@ -136,15 +136,16 @@
           </a>
         </div>
         <div class="media-body">
-          <h4 class="media-heading">Vritant Bhardwaj</h4>Vritant Bhardwaj is a Computer Science student passionate about attending hackathons, learning about new technologies and taking long walks on the beach.
+          <h4 class="media-heading">Vritant Bhardwaj</h4>Vritant Bhardwaj is passionate about creating, innovating , learning about new technologies and taking long naps on the beach.
         </div>
       </div>
     </div>
   </div>
   <div class="slides">
-      <div class="embed-responsive embed-responsive-16by9">
-          <iframe  class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQKOGxvI7I2QPLOcV7qEb7Rg-ygDWgFnuX3oE3Y5MRINKMNIwboPfbQ3JQmKoycWM3FMCJ-KE324oT3/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-      </div>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQKOGxvI7I2QPLOcV7qEb7Rg-ygDWgFnuX3oE3Y5MRINKMNIwboPfbQ3JQmKoycWM3FMCJ-KE324oT3/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1440" height="839"
+          allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
@@ -152,6 +153,22 @@
     window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+
+  <script>
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 2030) { //use `this`, not `document`
+        $('.masthead-brand img').css({
+          'visibility': 'hidden',
+          'transition': '0s, opacity 0.5s linear'
+        });
+      } else {
+        $('.masthead-brand img').css({
+          'visibility': 'visible',
+          'transition': '0s, opacity 0.5s linear'
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>
