@@ -156,16 +156,10 @@
 
   <script>
     $(window).scroll(function() {
-      if ($(this).scrollTop() > $('.founders-container').position().top) { //use `this`, not `document`
-        $('.masthead-brand img').css({
-          'visibility': 'hidden',
-          'transition': '0s, opacity 0.5s linear'
-        });
+      if ($(this).scrollTop() > ($('.founders-container').position().top + 137)) { 
+        $('.masthead-brand img').fadeOut('fast');
       } else {
-        $('.masthead-brand img').css({
-          'visibility': 'visible',
-          'transition': '0s, opacity 0.5s linear'
-        });
+        $('.masthead-brand img').fadeIn('fast');
       }
     });
   </script>
