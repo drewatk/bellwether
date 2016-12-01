@@ -232,6 +232,7 @@ body {
     max-height: 100px;
     display: flex;
     padding-bottom: 5px;
+    margin: 0 auto;
 }
 
 .founders-container {
