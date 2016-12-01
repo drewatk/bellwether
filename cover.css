@@ -113,9 +113,6 @@ body {
 }
 
 @media (min-width: 48em) {
-    .masthead-brand {
-        /*float: left;*/
-    }
     .nav-masthead {
         float: right;
     }
@@ -177,6 +174,18 @@ body {
     }
 }
 
+@media (max-width: 50em) {
+    .founders p, .founders h4 {
+        text-align: center;
+    }
+    .founders img {
+        margin: 0 auto;
+    }
+    .masthead-brand img {
+        max-width: 100%;
+    }
+}
+
 
 /*
  * About section
@@ -195,7 +204,6 @@ body {
 .about p {
     font-size: 18px;
 }
-
 
 .about-container {
     width: 80%;
@@ -216,10 +224,14 @@ body {
     padding-top: 0;
 }
 
-.founders .media-object {
-  width: 100px;
-  height: 100px;
-  display: flex;
+.founders .row {
+    padding-bottom: 1em;
+}
+
+.founders .img-responsive {
+    max-height: 100px;
+    display: flex;
+    padding-bottom: 5px;
 }
 
 .founders-container {
