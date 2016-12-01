@@ -88,6 +88,7 @@ body {
 .masthead-brand img {
     max-width: 400px;
     margin: 0 auto;
+    z-index: 3
 }
 
 .nav-masthead .nav-link {
@@ -225,6 +226,7 @@ body {
     width: 40%;
     margin: 0 auto;
     padding-top: 20em;
+    z-index: 5;
 }
 
 .slides {
