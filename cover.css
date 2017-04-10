@@ -12,6 +12,8 @@ body, main {
 #right {
   height: 100vh;
   background: white;
+  text-align: center;
+  color: #333;
 }
 
 #logo{
