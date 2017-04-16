@@ -3,6 +3,7 @@ body, main {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   background: #eee;
+  overflow-x: hidden;
 }
 
 #left {
@@ -89,7 +90,6 @@ hr {
 @media (min-width: 800px) {
   #left {
     position: fixed;
-    /*height: 100vh;*/
   }
   #logo {
     padding: 0 3vw;
