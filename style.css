@@ -28,7 +28,6 @@ h3 {
 #nav{
   padding: 5vh 0 0;
   text-align: center;
-  -webkit-transition: all .3s ease;
 }
 
 .nav {
@@ -44,6 +43,8 @@ h3 {
 
 .nav li {
   display: inline-block;
+  -webkit-transition-duration: 0.4 ease; /* Safari */
+  transition-duration: 0.4s ease;
 }
 
 .nav li a {
@@ -65,6 +66,15 @@ h3 {
   color: #555;
 }
 
+.nopadding {
+   padding: 0 !important;
+}
+
+hr {
+  border-top: 1px solid #222;
+  margin: 10px 40px;
+}
+
 @font-face {
   font-family: 'Quinfo';
   src: url('fonts/Quinfo.otf');
@@ -72,6 +82,37 @@ h3 {
 }
 
 @media (min-width: 800px) {
+  #left {
+    position: fixed;
+    height: 100vh;
+  }
+  #logo {
+    padding: 0 3vw;
+    height: 45vh;
+    display:flex;
+    justify-content:center;
+  }
+  #button-container {
+    height: 5vh;
+    display:flex;
+    justify-content:center;
+  }
+  .my-button {
+    -webkit-transition-duration: 0.7s ease; /* Safari */
+    transition-duration: 0.7s ease;
+    border: 1px solid #eee;
+    background: #eee;
+    color: #222;
+    padding: 10px;
+  }
+  .my-button:hover {
+    background: #555;
+    color: #eee
+  }
+  .my-button:active {
+    background: #444;
+  }
+
   #nav {
     height: 45vh;
   }
@@ -80,16 +121,6 @@ h3 {
   }
   .nav li a {
     display: block;
-  }
-  #left {
-    position: fixed;
-    height: 100vh;
-  }
-  #logo {
-    padding: 0 3vw;
-    height: 50vh;
-    display:flex;
-    justify-content:center;
   }
   #trademark {
     text-align: center;
