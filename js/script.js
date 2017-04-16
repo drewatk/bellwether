@@ -3,6 +3,10 @@ var width;
 $(document).ready(function() {
    //Set height of the sidebar fixed on load
    var width = $(window).width();
+   if(width <= 800) {
+     $('#left').css('height', 'auto');
+     return;
+   }
    $('#left').css('height', $(window).height() + 'px');
 });
 

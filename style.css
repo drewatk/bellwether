@@ -81,6 +81,25 @@ hr {
   margin: 10px 40px;
 }
 
+/*Landing*/
+.landing {
+  background: url('./img/MainPage.jpeg') no-repeat center center;
+  background-size: cover;
+}
+
+#landing-head {
+  height: 100vh;
+  color: #eee;
+  padding-top: 40vh;
+  text-shadow: 0 .1rem .7rem rgba(0, 0, 0, .7);
+  -webkit-box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+#landing-head h1 {
+  margin: 0 0 10vh 0;
+}
+
 @font-face {
   font-family: 'Quinfo';
   src: url('fonts/Quinfo.otf');
@@ -91,12 +110,14 @@ hr {
   #left {
     position: fixed;
   }
+
   #logo {
     padding: 0 3vw;
     height: 45%;
     display:flex;
     justify-content:center;
   }
+
   #button-container {
     height: 5%;
     display:flex;
@@ -127,8 +148,19 @@ hr {
   .nav li a {
     display: block;
   }
+
   #trademark {
     text-align: center;
     height: 5%;
+  }
+
+  .landing {
+    background: url('./img/MainPage.jpeg') no-repeat center center;
+    background-size: cover;
+  }
+  #landing-head {
+    height: 100vh;
+    color: #eee;
+    /*margin-top: 20vh;*/
   }
 }
