@@ -8,6 +8,11 @@ body, main {
 #left {
   background: #222;
   color: #eee;
+  height: 0;
+}
+
+.row {
+  height: inherit;
 }
 
 #logo{
@@ -84,16 +89,16 @@ hr {
 @media (min-width: 800px) {
   #left {
     position: fixed;
-    height: 100vh;
+    /*height: 100vh;*/
   }
   #logo {
     padding: 0 3vw;
-    height: 45vh;
+    height: 45%;
     display:flex;
     justify-content:center;
   }
   #button-container {
-    height: 5vh;
+    height: 5%;
     display:flex;
     justify-content:center;
   }
@@ -103,7 +108,7 @@ hr {
     border: 1px solid #eee;
     background: #eee;
     color: #222;
-    padding: 10px;
+    padding: 0 10px;
   }
   .my-button:hover {
     background: #555;
@@ -114,7 +119,7 @@ hr {
   }
 
   #nav {
-    height: 45vh;
+    height: 45%;
   }
   .nav li {
     display: block;
@@ -124,5 +129,6 @@ hr {
   }
   #trademark {
     text-align: center;
+    height: 5%;
   }
 }
