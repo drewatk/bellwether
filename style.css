@@ -72,6 +72,15 @@ h3 {
 }
 
 @media (min-width: 800px) {
+  #nav {
+    height: 45vh;
+  }
+  .nav li {
+    display: block;
+  }
+  .nav li a {
+    display: block;
+  }
   #left {
     position: fixed;
     height: 100vh;
@@ -82,13 +91,7 @@ h3 {
     display:flex;
     justify-content:center;
   }
-  #nav {
-    height: 50vh;
-  }
-  .nav li {
-    display: block;
-  }
-  .nav li a {
-    display: block;
+  #trademark {
+    text-align: center;
   }
 }
