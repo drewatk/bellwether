@@ -29,7 +29,7 @@ window.onresize = function() {
   if(width <= 800) {
     console.log("here");
     $('#left').css('height', 'auto');
-    $('#landing-head').css('height', '100vh');
+    $('#landing-head').css('height', '50vh');
   }
   if(width > 800) {
     $('#left').css('height', height + 'px');

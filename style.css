@@ -98,19 +98,24 @@ hr {
 
 #landing-head {
   height: 50vh;
-  color: #eee;
+  color: #555;
   padding-top: 20vh;
-  text-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, .7);
-  -webkit-box-shadow: inset 0 0 10rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 10rem rgba(0, 0, 0, .5);
-  background: url('./img/MainPage.jpg') no-repeat center center;
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(255, 255, 255, .5);
+  -webkit-box-shadow: inset 0 0 10rem rgba(255, 255, 255, .5);
+  box-shadow: inset 0 0 10rem rgba(255, 255, 255, .5);
+  background: url('./img/MainPage.png') no-repeat center center;
   background-size: cover;
 }
 
 #landing-head h1 {
   margin: 0 0 5vh 0;
   padding: 10px 0;
-  background: hsla(0, 96%, 0%, 0.3);
+  background: rgba(255, 255, 255, .3);
+  font-size: 5rem;
+}
+
+#landing-head .my-button {
+  border: 1px solid #222;
 }
 
 @font-face {
