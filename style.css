@@ -10,14 +10,14 @@ body, main {
   color: #eee;
 }
 
-#logo{
+#logo {
   padding: 2vh 3vw;
   height: auto;
-  align-items:center;
+  align-items: center;
   text-align: center;
 }
 
-h3 {
+#motto {
   font-family: 'Quinfo', sans-serif;
   letter-spacing: 2px;
   font-size: 1.3em;
@@ -25,8 +25,13 @@ h3 {
   padding: 0;
 }
 
+#right p, #right li {
+  font-size: 1.1em;
+}
+
 .my-button {
-  -webkit-transition-duration: 1s ease; /* Safari */
+  -webkit-transition-duration: 1s ease;
+  /* Safari */
   transition-duration: 1s ease;
   border: 1px solid #eee;
   border-radius: 3px;
@@ -35,16 +40,18 @@ h3 {
   padding: 10px 10px;
   margin: auto;
 }
+
 .my-button:hover {
   background: #555;
   color: #eee;
 }
+
 .my-button:active {
   background: #444;
   color: #eee
 }
 
-#nav{
+#nav {
   padding: 0 0;
   text-align: center;
 }
@@ -62,7 +69,8 @@ h3 {
 
 .nav li {
   display: inline-block;
-  -webkit-transition-duration: 0.4 ease; /* Safari */
+  -webkit-transition-duration: 0.4 ease;
+  /* Safari */
   transition-duration: 0.4s ease;
 }
 
@@ -86,13 +94,14 @@ h3 {
 }
 
 .nopadding {
-   padding: 0 !important;
+  padding: 0 !important;
 }
 
 hr {
   border-top: 1px solid #222;
   margin: 10px 40px;
 }
+
 
 /*Landing*/
 
@@ -109,13 +118,14 @@ hr {
 
 #landing-head h1 {
   margin: 0 0 5vh 0;
-  padding: 10px 0;
+  padding: 10px 15px;
   background: rgba(255, 255, 255, .3);
   font-size: 5rem;
 }
 
 #landing-head .my-button {
   border: 1px solid #222;
+  margin: 0 5px;
 }
 
 @font-face {
@@ -128,24 +138,20 @@ hr {
   #left {
     position: fixed;
   }
-
   .row {
     height: inherit;
   }
-
   #logo {
     padding: 0 3vw;
     height: 45%;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
   }
-
   #button-container {
     height: 10%;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
   }
-
   #nav {
     height: 40%;
   }
@@ -155,18 +161,15 @@ hr {
   .nav li a {
     display: block;
   }
-
   #trademark {
     text-align: center;
     height: 5%;
   }
-
   #right {
-      height: 100vh;
-      overflow-x: hidden;
-      overflow-y: visible;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: visible;
   }
-
   #landing-head {
     height: 55%;
     background-size: cover;
