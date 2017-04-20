@@ -102,9 +102,7 @@ hr {
   margin: 10px 40px;
 }
 
-
 /*Landing*/
-
 #landing-head {
   height: 50vh;
   color: #eee;
@@ -120,7 +118,6 @@ hr {
 }
 
 #landing-head .my-button {
-  border: 1px solid #222;
   margin: 0 5px;
 }
 
@@ -138,7 +135,7 @@ hr {
     height: inherit;
   }
   #logo {
-    padding: 0 3vw;
+    padding: 0 1vw;
     height: 45%;
     display: flex;
     justify-content: center;
