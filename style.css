@@ -121,6 +121,17 @@ hr {
   margin: 0 5px;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 30vh;
+}
+
+.content-image {
+  height: 30vh;
+}
+
 @font-face {
   font-family: 'Quinfo';
   src: url('fonts/Quinfo.otf');
